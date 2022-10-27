@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MeuProjeto",
-    "slug": "MeuProjeto",
+    "name": "JackPot",
+    "slug": "Jack-Pot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,25 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.devup.JackPot",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "comdevup.JackPot",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dc8a086b-c18d-4a03-96d9-1e9ddcd03990"
+      }
     }
   }
 }
